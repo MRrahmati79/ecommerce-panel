@@ -1,0 +1,19 @@
+.boxplus div{
+margin: 3px 7px;
+margin-right: 10px;
+}
+
+.circle{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background:rgb(255, 94, 0);
+}
+
+.update p{
+padding: 3px 5px;
+}
+
+.month{
+    padding: 10px 10px;
+}

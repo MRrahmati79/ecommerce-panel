@@ -1,4 +1,5 @@
 import "./header.css"
+import Main from "./main"
 import profile from "./profile.jpg"
 export default function Header() {
     return (
@@ -15,28 +16,28 @@ export default function Header() {
 
                 <div className="flex items-center">
 
-                      <div className="text-gray-800 flex items-center header">
-                    <i className="fa-solid fa-bell bell"></i>
-                    <p className="text mr-4"></p>
-                </div>
-
-                <div className="flex items-center information">
-                    <img className="w-8 h-8 rounded-full" src={profile} alt="profile"></img>
-                    <div className="flex flex-col">
-                        <p className="text-black font-bold">Rhaenyra Targaryen</p>
-                        <p>Syrax Rider</p>
+                    <div className="text-gray-800 flex items-center header">
+                        <i className="fa-solid fa-bell bell"></i>
+                        <p className="text mr-4"></p>
                     </div>
+
+                    <div className="flex items-center information">
+                        <img className="w-8 h-8 rounded-full" src={profile} alt="profile"></img>
+                        <div className="flex flex-col">
+                            <p className="text-black font-bold">Rhaenyra Targaryen</p>
+                            <p>Syrax Rider</p>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <i className="fa-solid fa-angle-down"></i>
+                    </div>
+
                 </div>
 
 
-                <div>
-                    <i className="fa-solid fa-angle-down"></i>
-                </div>
 
-                </div>
-
-
-              
 
             </div>
 
@@ -45,7 +46,10 @@ export default function Header() {
                 <i className="fa-solid fa-angle-right text-gray-500"></i>
                 <p className="text-black">Dashboard</p>
             </div>
-            
+
+
+                <Main></Main>
+
         </div>
     )
 }

@@ -22,8 +22,8 @@ export default function Sidbar() {
 
                 <div className="flex items-center justify-between hover:bg-black hover:rounded-lg hover:text-orange-500">
                     <i className="fa-solid fa-poll"></i>
-                    <p className="ml-1">Dashboard</p>
-                    <p className="bg-red-500 text-white rounded-md ml-3 p-2">12</p>
+                    <p className="ml-2">Dashboard</p>
+                    <p className="bg-red-500 text-white rounded-md ml-3 pl-3 pr-3  pb-1">12</p>
                 </div>
 
 
@@ -31,8 +31,8 @@ export default function Sidbar() {
                 <div className="flex items-center justify-between hover:bg-black hover:rounded-lg hover:text-orange-500">
 
                     <i className="fa-solid fa-envelope"></i>
-                    <p>Messages</p>
-                    <p className="bg-red-500 text-white rounded-md ml-3 p-2">20</p>
+                    <p className="ml-2">Messages</p>
+                    <p className="bg-red-500 text-white rounded-md ml-4 pl-3 pr-3  pb-1">20</p>
                 </div>
 
 
