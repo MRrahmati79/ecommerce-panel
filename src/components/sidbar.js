@@ -3,8 +3,7 @@ import "./sidbar.css"
 
 export default function Sidbar() {
     return (
-        <div className="w-2/12 bg-slate-200 box">
-
+        <div>
 
             <div className="flex items-center">
 
@@ -21,27 +20,27 @@ export default function Sidbar() {
             <div className="flex flex-col text-gray-500">
 
 
-                <div className="flex items-center justify-between  hover:bg-black hover:rounded-lg hover:text-orange-500">
-                    <i className="fa-solid fa-shop"></i>
-                    <p>Dashboard</p>
-                    <span className="bg-red-500 text-white rounded-md">12</span>
+                <div className="flex items-center justify-between hover:bg-black hover:rounded-lg hover:text-orange-500">
+                    <i className="fa-solid fa-poll"></i>
+                    <p className="ml-1">Dashboard</p>
+                    <p className="bg-red-500 text-white rounded-md ml-3 p-2">12</p>
                 </div>
 
 
 
-                <div className="flex items-center justify-between  hover:bg-black hover:rounded-lg hover:text-orange-500">
+                <div className="flex items-center justify-between hover:bg-black hover:rounded-lg hover:text-orange-500">
 
-                    <i className="fa-solid fa-home"></i>
+                    <i className="fa-solid fa-envelope"></i>
                     <p>Messages</p>
-                    <span className="bg-red-500 text-white rounded-md">20</span>
+                    <p className="bg-red-500 text-white rounded-md ml-3 p-2">20</p>
                 </div>
 
 
 
                 <div className="flex items-center hover:bg-black hover:rounded-lg hover:text-orange-500">
 
-                    <i className="fa-solid fa-phone"></i>
-                    <p className="ml-7">Socials</p>
+                    <i className="fa-solid fa-users"></i>
+                    <p className="ml-3">Socials</p>
                 </div>
 
 
@@ -49,8 +48,8 @@ export default function Sidbar() {
 
                 <div className="flex items-center hover:bg-black hover:rounded-lg hover:text-orange-500">
 
-                    <i className="fa-solid fa-car"></i>
-                    <p className="ml-7">Documents</p>
+                    <i className="fa-solid fa-file-alt"></i>
+                    <p className="ml-3">Documents</p>
                 </div>
 
 
@@ -61,21 +60,21 @@ export default function Sidbar() {
                 <p className="pt-8 mt-3">SETTINGS</p>
 
                 <div className="flex items-center mt-8">
-                    <i className="fa-solid fa-search"></i>
+                    <i className="fa-solid fa-user-friends"></i>
                     <p className="pl-4">Roles</p>
                 </div>
 
 
 
                 <div className="flex items-center">
-                    <i className="fa-solid fa-search"></i>
+                    <i className="fa-solid fa-exchange-alt"></i>
                     <p className="pl-4">Requests</p>
                 </div>
 
 
 
                 <div className="flex items-center">
-                    <i className="fa-solid fa-fish"></i>
+                    <i className="fa-solid fa-cog"></i>
                     <p className="pl-4">Preferences</p>
                 </div>
 
