@@ -1,7 +1,7 @@
 import "./main.css"
 export default function Main() {
     return (
-        <div className="flex boxplus justify-evenly items-center">
+        <div className="flex boxplus justify-evenly items-center ">
 
 
             <div className="w-2/5 flex flex-col bg-gray-200 rounded-md">

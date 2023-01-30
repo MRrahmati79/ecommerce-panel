@@ -1,6 +1,8 @@
+import Aside from "./aside"
 import "./header.css"
 import Main from "./main"
 import profile from "./profile.jpg"
+import Section from "./section"
 export default function Header() {
     return (
 
@@ -49,6 +51,8 @@ export default function Header() {
 
 
                 <Main></Main>
+                <Section></Section>
+                <Aside></Aside>
 
         </div>
     )
