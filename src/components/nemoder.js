@@ -58,55 +58,32 @@ export default function Nemodar() {
                         <p className="khat w-1 h-14 rounded-sm ml-2 bg-slate-500"></p>
                         <p className="khat2 w-1  rounded-sm ml-2 bg-orange-600"></p>
 
-
-
-
                         <div className="ml-7">
                             <p className="khat3 w-1 h-7 rounded-sm  ml-2 bg-slate-500"></p>
-
                         </div>
 
                         <div>
                             <p className="khat4 w-1 h-16 rounded-sm ml-2 bg-orange-600"></p>
-
                         </div>
-
-
-
 
                         <div className="ml-8">
                             <p className="khat5 w-1 h-24 rounded-sm  ml-2 bg-slate-500"></p>
-
                         </div>
 
                         <div>
                             <p className="khat6 w-1 h-36 rounded-sm ml-2 bg-orange-600"></p>
-
                         </div>
-
-
-
-
-
 
                         <div className="ml-8">
                             <p className="khat7 w-1 rounded-sm  ml-2 bg-slate-500"></p>
-
                         </div>
 
                         <div>
                             <p className="khat8 w-1 rounded-sm ml-2 bg-orange-600"></p>
-
                         </div>
-
-
-
-
-
 
                         <div className="ml-8">
                             <p className="khat9 w-1 h-14 rounded-sm  ml-2 bg-slate-500"></p>
-
                         </div>
 
                         <div>
@@ -117,80 +94,40 @@ export default function Nemodar() {
                                     <i className="fa-solid fa-square text-xs text-black absolute rotate-45 right-11 top-11"></i>
                                 </div>
                             </p>
-
                         </div>
-
-
-
 
                         <div className="ml-8">
                             <p className="khat3 w-1 h-7 rounded-sm  ml-2 bg-slate-500"></p>
-
                         </div>
 
                         <div>
                             <p className="khat12 w-1 h-14 rounded-sm ml-2 bg-orange-600"></p>
-
                         </div>
-
-
-
-
                         
                         <div className="ml-8">
                             <p className="khat5 w-1 h-24 rounded-sm  ml-2 bg-slate-500"></p>
-
                         </div>
 
                         <div>
                             <p className="khat14 w-1 h-44 rounded-sm ml-2 bg-orange-600"></p>
-
                         </div>
-
-
-
-
-
-
                         
                         <div className="ml-8">
                             <p className="khat15 w-1 h-16 rounded-sm  ml-2 bg-slate-500"></p>
-
                         </div>
 
                         <div>
                             <p className="khat16 w-1 h-24 rounded-sm ml-2 bg-orange-600"></p>
-
                         </div>
-
-
-
 
                         <div className="ml-8">
                             <p className="khat17 w-1 h-32 rounded-sm  ml-2 bg-slate-500"></p>
-
                         </div>
 
                         <div>
                             <p className="khat18 w-1  rounded-sm ml-2 bg-orange-600"></p>
-
                         </div>
-
-
-
-
-
-
-                        
-
-
-
-
-
-
-
                     </div>
-
                 </p>
             </div>
 
