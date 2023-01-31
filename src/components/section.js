@@ -1,3 +1,4 @@
+import Amar from "./amar";
 import Nemodar from "./nemoder";
 
 export default function Section() {
@@ -39,7 +40,18 @@ export default function Section() {
                 </div>
 
             </div>
-            <Nemodar></Nemodar>
+
+            <div className="flex flex-col">
+                <div className="flex w-full">
+                    <Nemodar></Nemodar>
+                </div>
+                <div className="flex">
+                    <Amar></Amar>
+                    <p>njhhg</p>
+                </div>
+
+            </div>
+
         </div>
     )
 }

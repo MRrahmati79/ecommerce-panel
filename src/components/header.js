@@ -1,4 +1,3 @@
-import Amar from "./amar"
 import Aside from "./aside"
 import "./header.css"
 import Main from "./main"
@@ -45,10 +44,7 @@ export default function Header() {
 
             <Main></Main>
             <Section></Section>
-            <div className="flex">
-                <Aside></Aside>
-                <Amar></Amar>
-            </div>
+            <Aside></Aside>
 
 
         </div>

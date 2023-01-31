@@ -3,10 +3,9 @@
 }
 
 .form{
-    margin-top: -218px;
+    margin-top: -420px;
     padding: 0px 0px 0px 15px;
 }
-
-.form i{
-    padding: 7px 0px 0px 0px;
+.form{
+    width: 33%;
 }
