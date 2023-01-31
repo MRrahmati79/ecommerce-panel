@@ -1,10 +1,13 @@
+import Nemodar from "./nemoder";
+
 export default function Section() {
     return (
 
-        <div>
+        <div className="flex">
 
 
-            <div className="w-2/6 bg-gray-200 rounded-md ml-1 mt-1">
+            <div className="w-2/6 bg-gray-200 rounded-md ml-1 mt-1 h-40">
+
 
                 <div className="flex justify-between">
                     <p className="font-bold text-black p-2">Products</p>
@@ -44,11 +47,14 @@ export default function Section() {
                         <p className="text-gray-500"> <span className="text-orange-500">15%</span>vslast3monthw</p>
                     </div>
 
-
                 </div>
 
 
             </div>
+
+            
+                <Nemodar></Nemodar>
+            
 
 
 

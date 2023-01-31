@@ -50,9 +50,12 @@ export default function Header() {
             </div>
 
 
-                <Main></Main>
-                <Section></Section>
-                <Aside></Aside>
+            <Main></Main>
+
+
+            <Section></Section>
+
+            <Aside></Aside>
 
         </div>
     )
