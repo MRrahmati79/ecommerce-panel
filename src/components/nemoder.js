@@ -88,7 +88,7 @@ export default function Nemodar() {
 
                         <div>
                             <p className="khat10 w-1 h-32 rounded-sm ml-2 bg-orange-600">
-                                <div className="w-24 bg-black text-white rounded-md text-center relative bottom-16 right-12">
+                                <div className="w-28 bg-black text-white rounded-md text-center relative bottom-16 october">
                                     <p className="font-bold">$104,000</p>
                                     <p className="text-sm text-gray-400">October 2021</p>
                                     <i className="fa-solid fa-square text-xs text-black absolute rotate-45 right-11 top-11"></i>
