@@ -131,7 +131,6 @@ export default function Nemodar() {
                 </p>
             </div>
 
-
             <div className="flex monts">
                 <p className="text-sm text-gray-500">Jul21</p>
                 <p className="text-sm text-gray-500">Aug21</p>
@@ -143,11 +142,6 @@ export default function Nemodar() {
                 <p className="text-sm text-gray-500">Feb22</p>
                 <p className="text-sm text-gray-500">Mar22</p>
             </div>
-
-
-
-
-
 
         </div>
     )

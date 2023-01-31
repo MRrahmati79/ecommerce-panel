@@ -4,7 +4,7 @@ export default function Aside() {
         <div>
 
 
-            <div className="w-2/6 bg-gray-200 rounded-md ml-1 form">
+            <div className="w-full  bg-gray-200 rounded-md ml-1 form">
                 <h1 className="text-black font-bold ml-5 pt-3">Transactions</h1>
 
                 <div className="flex flex-col">

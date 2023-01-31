@@ -1,3 +1,4 @@
+import Amar from "./amar"
 import Aside from "./aside"
 import "./header.css"
 import Main from "./main"
@@ -15,9 +16,7 @@ export default function Header() {
                     <p>Type anywhere to search</p>
                 </div>
 
-
                 <div className="flex items-center">
-
                     <div className="text-gray-800 flex items-center header">
                         <i className="fa-solid fa-bell bell"></i>
                         <p className="text mr-4"></p>
@@ -31,17 +30,12 @@ export default function Header() {
                         </div>
                     </div>
 
-
                     <div>
                         <i className="fa-solid fa-angle-down"></i>
                     </div>
-
                 </div>
-
-
-
-
             </div>
+
 
             <div className="flex items-center box1">
                 <p className="text-gray-500">Home</p>
@@ -49,13 +43,13 @@ export default function Header() {
                 <p className="text-black">Dashboard</p>
             </div>
 
-
             <Main></Main>
-
-
             <Section></Section>
+            <div className="flex">
+                <Aside></Aside>
+                <Amar></Amar>
+            </div>
 
-            <Aside></Aside>
 
         </div>
     )
