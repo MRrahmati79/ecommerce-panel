@@ -1,6 +1,12 @@
 .box div{
     padding: 10px;
 }
-.box span{
-padding: 4px 6px;
+.text1{
+    padding: 4px;
+    margin-left: 11px;
+    
+}
+.text2{
+    padding: 4px;
+    margin-left: 12px;
 }

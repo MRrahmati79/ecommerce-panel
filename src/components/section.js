@@ -1,4 +1,5 @@
 import Amar from "./amar";
+import Increase from "./increase";
 import Nemodar from "./nemoder";
 
 export default function Section() {
@@ -47,7 +48,7 @@ export default function Section() {
                 </div>
                 <div className="flex">
                     <Amar></Amar>
-                    <p>njhhg</p>
+                    <Increase></Increase>
                 </div>
 
             </div>
