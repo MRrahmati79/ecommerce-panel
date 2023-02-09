@@ -6,7 +6,7 @@ import Section from "./section"
 export default function Header() {
     return (
 
-        <div className="w-full">
+        <div className="w-full boxheader">
 
             <div className="flex justify-between text-gray-500 p-2 items-center">
 

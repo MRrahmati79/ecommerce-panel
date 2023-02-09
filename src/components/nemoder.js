@@ -2,7 +2,7 @@ import "./nemoder.css"
 export default function Nemodar() {
     return (
 
-        <div className="min-w-full bg-slate-200 p-3 ml-1 rounded-md boxnemodar boxinformation">
+        <div className="min-w-full bg-slate-200 p-3 mt-1 ml-2 rounded-md boxnemodar boxinformation">
 
             <div className="flex justify-between">
                 <h1 className="font-bold">Analytics</h1>

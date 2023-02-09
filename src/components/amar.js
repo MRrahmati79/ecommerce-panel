@@ -1,7 +1,7 @@
 import "./amar.css"
 export default function Amar() {
     return (
-        <div className="ml-1 rounded-md  palet  mt-1 bg-gray-200">
+        <div className="ml-2 rounded-md  palet  mt-1 bg-gray-200">
 
             <div className="flex justify-between items-center">
                 <h1 className="text-black font-bold p-3">Orders</h1>

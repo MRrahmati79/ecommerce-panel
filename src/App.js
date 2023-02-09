@@ -11,7 +11,7 @@ function App() {
 
         <div className='flex'>
 
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 bg-slate-200 box">
+          <div className=" bg-slate-200 box">
             <Sidbar></Sidbar>
           </div>
           <div className='w-full'>

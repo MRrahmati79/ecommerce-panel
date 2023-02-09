@@ -15,26 +15,26 @@ export default function Sidbar() {
             </div>
 
             <div className="flex flex-col text-gray-500">
-                <div className="flex items-center justify-between hover:bg-black hover:rounded-lg hover:text-orange-500">
-                    <i className="fa-solid fa-poll"></i>
+                <div className="flex items-center justify-between hover:bg-black hover:rounded-lg hover:text-white">
+                    <i className="fa-solid fa-poll hover:text-orange-500"></i>
                     <p className="ml-2">Dashboard</p>
-                    <p className="bg-red-500 text-white text-center text1 w-8 flex items-center justify-center rounded-md">12</p>
+                    <p className="bg-red-700 text-white text-center text1 w-8 flex items-center  justify-center rounded-md">12</p>
                 </div>
 
-                <div className="flex items-center justify-between hover:bg-black hover:rounded-lg hover:text-orange-500">
+                <div className="flex items-center justify-between hover:bg-black hover:rounded-lg hover:text-white">
 
-                    <i className="fa-solid fa-envelope"></i>
+                    <i className="fa-solid  hover:text-orange-500 fa-envelope"></i>
                     <p className="">Messages</p>
-                    <p className="bg-red-500 text-white text-center text2  w-8 flex items-center justify-center rounded-md">20</p>
+                    <p className="bg-red-700 text-white text-center text2  w-8 flex items-center justify-center rounded-md">20</p>
                 </div>
 
-                <div className="flex items-center hover:bg-black hover:rounded-lg hover:text-orange-500">
-                    <i className="fa-solid fa-users"></i>
+                <div className="flex items-center hover:bg-black hover:rounded-lg hover:text-white">
+                    <i className="fa-solid  hover:text-orange-500  fa-users"></i>
                     <p className="ml-2">Socials</p>
                 </div>
 
-                <div className="flex items-center hover:bg-black hover:rounded-lg hover:text-orange-500">
-                    <i className="fa-solid fa-file-alt"></i>
+                <div className="flex items-center hover:bg-black hover:rounded-lg hover:text-white">
+                    <i className="fa-solid  hover:text-orange-500 fa-file-alt"></i>
                     <p className="ml-3">Documents</p>
                 </div>
 
